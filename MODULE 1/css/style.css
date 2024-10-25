@@ -1,0 +1,107 @@
+body{
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+
+    font-family: Lucida Sans unicode;
+}
+
+.header{
+    overflow: hidden;
+    padding: 30px 10px;
+}
+.header a{
+    float: center;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+
+}
+.header a:hover{
+    background-color: rgb(198, 64, 64);
+    color: #d5cccc;
+}
+
+.header-right{
+    margin: 10px;
+    float: center;
+}
+
+.title{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(198, 64, 64);
+    padding-left: 400px;
+    padding-top: 300px;
+}
+.subtitle{
+    font-size: 20px;
+    color: rgb(198, 64, 64);
+    padding-left: 360px;
+    padding-top: 10px;
+}
+button{
+    background-color: transparent;
+    width: 200px;
+    height: 70px;
+    color: rgb(198, 64, 64);
+    padding: 10px 20px;
+    border: 2px solid rgb(198, 64, 64);
+    border-radius: 100px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 400px;
+}
+button:hover{
+    background-color: rgb(198, 64, 64);
+    color: rgb(233, 200, 200);
+    font-weight: bold;
+}
+
+.content{
+    color: black;
+    text-align: center;
+}
+.services{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    img
+    {border-radius: 50%;
+        height: 300px;
+        width: 300px;
+    }
+}
+
+form{
+    border: 3px solid #f1f1f1;
+    padding: 20px;
+    border-radius: 20px;
+    width: 30%;
+    margin: auto;
+    background-color: rgb(241, 234, 234);
+    input[type=text], input[type=date], input[type=file], input[type=email], input[type=tel], 
+    input[type=password], select, textarea{
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0px;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 10px;      
+        box-sizing: border-box;
+    }
+    input[type=radio]
+    {
+        width: 3%;
+        margin: 20px 10px;
+
+    }
+}
+
+/* footer{
+    
+} */

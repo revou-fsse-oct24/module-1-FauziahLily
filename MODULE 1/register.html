@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="icon" href="assets\logo.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1 style="text-align: center;">Register</h1>
+    <br>
+    <form action="submit.html" method="post">
+        <label for="firstname">First Name</label>
+        <br>
+        <input type="text" name="firstname" placeholder="First Name">
+        <br>
+        <label for="lastname">Last Name</label>
+        <br>
+        <input type="text" name="lastname" placeholder="Last Name">
+        <br>
+        <label for="gender">Gender</label>
+        <br>
+        <input type="radio" id="gender" name="gender">Male
+        <input type="radio" id="gender" name="gender">Female
+        <br>
+        <label for="borndate">Date of Birth</label>
+        <br>
+        <input type="date" name="borndate" placeholder="Date of Birth">
+        <br>
+        <label for="religion">Religion</label>
+        <br>
+        <select name="religion">
+            <option value="religion" disabled selected>Religion</option>
+            <option value="Muslim">Muslim</option>
+            <option value="Hindu">Hindu</option>
+            <option value="Buddha">Buddha</option>
+            <option value="Katholik">Katholik</option>
+            <option value="Kristen">Kristen</option>
+            <option value="Konghucu">Konghucu</option>
+            <option value="Atheist">Atheist</option>
+            <option value="Spiritual">Spiritual, not religious</option>
+            <option value="none">None</option>
+            <option value="Agnostic">Agnostic</option>
+        </select>
+        <br>
+        <label for="marital">Marital Status</label>
+        <br>
+        <select name="marital">
+            <option value="status" disabled selected>Status</option>
+            <option value="single">Single</option>
+            <option value="married">Married</option>
+            <option value="divorced">Divorced</option>
+            <option value="separated">Separated</option>
+        </select>
+        <br>
+        <label for="email">Email</label>
+        <br>
+        <input type="email" name="email" placeholder="Email">
+        <br>
+        <label for="phone">Phone</label>
+        <br>
+        <input type="tel" name="phone" placeholder="Phone">
+        <br>
+        <label for="password">Password</label>
+        <br>
+        <input type="password" name="password" placeholder="Password">
+        <br>
+        <label for="occupation">Occupation</label>
+        <br>
+        <input type="text" name="occupation" placeholder="Occupation">
+        <br>
+        <label for="income">Annual Income</label>
+        <br>
+        <select name="marital">
+            <option value="income" disabled selected></option>
+            <option value="under1">Less than Rp. 1.000.000</option>
+            <option value="1to5">Rp. 1.000.000 - Rp. 5.000.000</option>
+            <option value="5to10">Rp. 5.000.000 - Rp. 10.000.000</option>
+            <option value="15to20">Rp. 10.000.000 - Rp. 20.000.000</option>
+            <option value="20up">More than Rp. 20.000.000</option>
+        </select>
+        <br>
+        <label for="about">About Me</label>
+        <br>
+        <input type="text" name="about" placeholder="About Me">
+        <br>
+        <label for="meet">Person You Want to Meet</label>
+        <br>
+        <input type="text" name="meet" placeholder="Describe Person You Want to Meet">
+        <br>
+        <button type="submit" style="margin-left: 30%; width: 200px; height: 40px;">Submit</button>
+    </form>
+</body>
+</html>
