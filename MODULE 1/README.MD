@@ -1,4 +1,3 @@
-
 # 🌟 Dating Coaching Website 🌟
 
 Welcome to our Dating Coaching Website, Matchly! Here, we transform your dating journey into a fun adventure with the guidance of our professional matchmaker, Lily.
@@ -26,7 +25,6 @@ This website is your go-to source for expert dating coaching services. We've got
 
 ![App Screenshot](assets\landingpage.png)
 
-
 - **Main Navigation**: Use `beranda.html` to explore the main content.
 
 ![App Screenshot](assets\homepage.png)
@@ -50,4 +48,3 @@ This website is your go-to source for expert dating coaching services. We've got
 ## ✨ Contributing
 
 We love contributions! Fork this project, make your improvements, and submit pull requests. Let's make dating fun together!
-
